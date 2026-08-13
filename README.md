@@ -139,7 +139,7 @@ The application is deployed using Vercel.
 
 Live application:
 
-YOUR_VERCEL_LINK
+https://ai-interview-mock-panel.vercel.app/
 
 ## Author
 
