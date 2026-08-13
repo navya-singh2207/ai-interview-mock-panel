@@ -28,9 +28,9 @@ An AI-powered interview practice platform that simulates realistic interview pan
 - AI/LLM Integration
 - Vercel
 
-## Project Structure
+  ## Project Structure
 
-```text
+
 ai-interview-mock-panel/
 ├── app/
 │   └── page.tsx
@@ -62,6 +62,8 @@ ai-interview-mock-panel/
 ├── tailwind.config.ts
 ├── tsconfig.json
 └── README.md
+
+
 ## How It Works
 
 1. Start a mock interview
