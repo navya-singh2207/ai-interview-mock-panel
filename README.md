@@ -28,40 +28,43 @@ An AI-powered interview practice platform that simulates realistic interview pan
 - AI/LLM Integration
 - Vercel
 
-  ## Project Structure
+ ## Project Structure
 
+**app/**
+- page.tsx
 
-ai-interview-mock-panel/
-├── app/
-│   └── page.tsx
-├── components/
-│   ├── Features.tsx
-│   ├── HeroMockup.tsx
-│   ├── HowItWorks.tsx
-│   ├── InterviewWorkspace.tsx
-│   ├── PanelFlow.tsx
-│   ├── ReasoningTrail.tsx
-│   ├── Reveal.tsx
-│   ├── ScoreIndicator.tsx
-│   ├── TrustStrip.tsx
-│   └── VerdictShowcase.tsx
-├── lib/
-│   ├── gemini.ts
-│   ├── llm.ts
-│   ├── personas.ts
-│   ├── questions.ts
-│   └── scoring.ts
-├── types/
-│   └── index.ts
-├── public/
-├── .gitignore
-├── next.config.mjs
-├── package.json
-├── package-lock.json
-├── postcss.config.mjs
-├── tailwind.config.ts
-├── tsconfig.json
-└── README.md
+**components/**
+- Features.tsx
+- HeroMockup.tsx
+- HowItWorks.tsx
+- InterviewWorkspace.tsx
+- PanelFlow.tsx
+- ReasoningTrail.tsx
+- Reveal.tsx
+- ScoreIndicator.tsx
+- TrustStrip.tsx
+- VerdictShowcase.tsx
+
+**lib/**
+- gemini.ts
+- llm.ts
+- personas.ts
+- questions.ts
+- scoring.ts
+
+**types/**
+- index.ts
+
+**Other files**
+- public/
+- .gitignore
+- next.config.mjs
+- package.json
+- package-lock.json
+- postcss.config.mjs
+- tailwind.config.ts
+- tsconfig.json
+- README.md
 
 
 ## How It Works
