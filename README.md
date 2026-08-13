@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Interview Mock Panel
 
-## Getting Started
+An AI-powered interview practice platform that simulates realistic interview panels and provides structured feedback to help candidates improve their interview performance.
 
-First, run the development server:
+## Live Demo
 
-```bash
+[AI Interview Mock Panel](https://ai-interview-mock-panel.vercel.app/)
+
+## Features
+
+- AI-powered mock interviews
+- HR, Technical and Hiring Manager interview perspectives
+- Realistic interview questions
+- AI-generated feedback
+- Candidate performance scoring
+- Final interview verdict
+- Structured interview workflow
+- Responsive modern UI
+- Voice-ready interview experience
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Groq API
+- AI/LLM Integration
+- Vercel
+
+## Project Structure
+
+ai-interview-mock-panel/
+│
+├── app/
+│   ├── page.tsx
+│   └── ...
+│
+├── components/
+│   ├── Features.tsx
+│   ├── HeroMockup.tsx
+│   ├── HowItWorks.tsx
+│   ├── InterviewWorkspace.tsx
+│   ├── PanelFlow.tsx
+│   ├── ReasoningTrail.tsx
+│   ├── Reveal.tsx
+│   ├── ScoreIndicator.tsx
+│   ├── TrustStrip.tsx
+│   └── VerdictShowcase.tsx
+│
+├── lib/
+│   ├── gemini.ts
+│   ├── llm.ts
+│   ├── personas.ts
+│   ├── questions.ts
+│   └── scoring.ts
+│
+├── types/
+│   └── index.ts
+│
+├── public/
+│
+├── .gitignore
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
+
+## How It Works
+
+1. Start a mock interview
+2. Answer realistic interview questions
+3. AI interviewers evaluate the response
+4. Different interviewer perspectives are combined
+5. Candidate receives scores and feedback
+6. Final verdict highlights strengths and improvement areas
+
+## Interview Perspectives
+
+### HR
+
+Evaluates:
+- Communication
+- Confidence
+- Culture fit
+
+### Technical
+
+Evaluates:
+- Technical depth
+- Problem solving
+- Technical judgment
+
+### Hiring Manager
+
+Evaluates:
+- Ownership
+- Impact
+- Decision making
+
+## Environment Variables
+
+Create a `.env.local` file in the project root:
+
+GROQ_API_KEY=your_api_key_here
+
+Never commit your actual API key to GitHub.
+
+## Local Development
+
+Clone the repository:
+
+git clone https://github.com/navya-singh2207/ai-interview-mock-panel.git
+
+Go into the project:
+
+cd ai-interview-mock-panel
+
+Install dependencies:
+
+npm install
+
+Create `.env.local` and add your API key.
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deployment
 
-## Learn More
+The application is deployed using Vercel.
 
-To learn more about Next.js, take a look at the following resources:
+Live application:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+YOUR_VERCEL_LINK
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+Navya Singh
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+B.Tech Computer Science
+Bennett University
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub:
+https://github.com/navya-singh2207
+
+Repository:
+https://github.com/navya-singh2207/ai-interview-mock-panel
