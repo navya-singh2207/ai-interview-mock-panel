@@ -30,12 +30,10 @@ An AI-powered interview practice platform that simulates realistic interview pan
 
 ## Project Structure
 
+```text
 ai-interview-mock-panel/
-│
 ├── app/
-│   ├── page.tsx
-│   └── ...
-│
+│   └── page.tsx
 ├── components/
 │   ├── Features.tsx
 │   ├── HeroMockup.tsx
@@ -47,19 +45,15 @@ ai-interview-mock-panel/
 │   ├── ScoreIndicator.tsx
 │   ├── TrustStrip.tsx
 │   └── VerdictShowcase.tsx
-│
 ├── lib/
 │   ├── gemini.ts
 │   ├── llm.ts
 │   ├── personas.ts
 │   ├── questions.ts
 │   └── scoring.ts
-│
 ├── types/
 │   └── index.ts
-│
 ├── public/
-│
 ├── .gitignore
 ├── next.config.mjs
 ├── package.json
@@ -68,7 +62,6 @@ ai-interview-mock-panel/
 ├── tailwind.config.ts
 ├── tsconfig.json
 └── README.md
-
 ## How It Works
 
 1. Start a mock interview
